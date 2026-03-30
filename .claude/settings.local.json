@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/ML-For-Beginners -type f \\\\\\( -name \"*.ipynb\" \\\\\\) 2>/dev/null | head -20)",
+      "Bash(find /d/ML-For-Beginners -type f \\\\\\( -name \"*.csv\" -o -name \"*.json\" \\\\\\) 2>/dev/null | head -30)",
+      "Bash(find /d/ML-For-Beginners/3-Web-App/1-Web-App -type f -name \"*.html\" -o -name \"*.css\" -o -name \"*.json\" 2>/dev/null | head -20)"
+    ]
+  }
+}
